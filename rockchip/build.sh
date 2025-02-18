@@ -65,6 +65,7 @@ PACKAGES="$PACKAGES luci-proto-ncm"
 PACKAGES="$PACKAGES luci-proto-mbim"
 PACKAGES="$PACKAGES luci-i18n-modemband-zh-cn"
 PACKAGES="$PACKAGES luci-proto-modemmanager"
+PACKAGES="$PACKAGES luci-proto-qmi"
 # 增加几个必备组件 方便用户安装iStore
 PACKAGES="$PACKAGES fdisk"
 PACKAGES="$PACKAGES script-utils"
