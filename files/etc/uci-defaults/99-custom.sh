@@ -11,7 +11,8 @@ uci set "dhcp.@domain[-1].ip=203.107.6.88"
 
    # 多网口设备 支持修改为别的ip地址
    uci set network.lan.ipaddr='172.16.0.10'
-   echo "set 172.16.0.10 at $(date)" >> $LOGFILE
+   uci commit network
+fi
 # 设置所有网口可访问网页终端
 uci delete ttyd.@ttyd[0].interface
 
